@@ -186,6 +186,14 @@
 - [SIP](SIP.md) - VoIP 信令
 - [STUN](STUN.md) - NAT 穿越
 
+## 未文档化协议
+
+nDPI 支持 469 个协议，但只有 30 个协议有详细的 JSON 序列化文档。查看完整的未文档化协议列表：
+
+- **[未文档化协议列表](UNDOCUMENTED_PROTOCOLS.md)** - 437 个仅识别但无详细 JSON 输出的协议
+
+未文档化的协议在 JSON 输出中仅包含协议名称，不包含协议特定字段。
+
 ## 源代码参考
 
 - **主函数**: `src/lib/ndpi_utils.c` 中的 `ndpi_dpi2json()` (行 1530-2016)
