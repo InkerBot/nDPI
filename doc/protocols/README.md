@@ -74,6 +74,40 @@
 |------|---------|------|------|
 | NAT-PMP | NDPI_PROTOCOL_NATPMP (312) | 5351 | [NATPMP.md](NATPMP.md) |
 
+### 网络管理和监控协议
+
+| 协议 | 协议 ID | 端口 | 文档 |
+|------|---------|------|------|
+| COLLECTD | NDPI_PROTOCOL_COLLECTD (298) | 25826 | [COLLECTD.md](COLLECTD.md) |
+| MikroTik | NDPI_PROTOCOL_MIKROTIK (437) | 5678 | [MIKROTIK.md](MIKROTIK.md) |
+| UBNTAC2 | NDPI_PROTOCOL_UBNTAC2 (31) | 10001 | [UBNTAC2.md](UBNTAC2.md) |
+
+### 服务发现协议
+
+| 协议 | 协议 ID | 端口 | 文档 |
+|------|---------|------|------|
+| SSDP | NDPI_PROTOCOL_SSDP (12) | 1900 | [SSDP.md](SSDP.md) |
+| TiVoConnect | NDPI_PROTOCOL_TIVOCONNECT (308) | 2190 | [TIVOCONNECT.md](TIVOCONNECT.md) |
+
+### VPN 协议
+
+| 协议 | 协议 ID | 端口 | 文档 |
+|------|---------|------|------|
+| SoftEther | NDPI_PROTOCOL_SOFTETHER (290) | 443, 多种 | [SOFTETHER.md](SOFTETHER.md) |
+
+### 即时通讯协议
+
+| 协议 | 协议 ID | 端口 | 文档 |
+|------|---------|------|------|
+| Discord | NDPI_PROTOCOL_DISCORD (58) | 443, 多种 | [DISCORD.md](DISCORD.md) |
+
+### 简单文件传输协议
+
+| 协议 | 协议 ID | 端口 | 文档 |
+|------|---------|------|------|
+| TFTP | NDPI_PROTOCOL_TFTP (96) | 69 | [TFTP.md](TFTP.md) |
+| RSH | NDPI_PROTOCOL_RSH (294) | 514 | [RSH.md](RSH.md) |
+
 ## 文档结构
 
 每个协议文档包含以下部分：
@@ -91,7 +125,9 @@
 ### 按协议名称
 
 - [BitTorrent](BitTorrent.md)
+- [COLLECTD](COLLECTD.md)
 - [DHCP](DHCP.md)
+- [Discord](DISCORD.md)
 - [DNS](DNS.md)
 - [DTLS](DTLS.md)
 - [FTP](FTP.md)
@@ -99,18 +135,25 @@
 - [IMAP](IMAP.md)
 - [Kerberos](Kerberos.md)
 - [MDNS](MDNS.md)
+- [MikroTik](MIKROTIK.md)
 - [MongoDB](MongoDB.md)
 - [NATPMP](NATPMP.md)
 - [NTP](NTP.md)
 - [POP3](POP3.md)
 - [QUIC](QUIC.md)
+- [RSH](RSH.md)
 - [SIP](SIP.md)
 - [SMTP](SMTP.md)
 - [SNMP](SNMP.md)
+- [SoftEther](SOFTETHER.md)
+- [SSDP](SSDP.md)
 - [SSH](SSH.md)
 - [STUN](STUN.md)
 - [Telnet](Telnet.md)
+- [TFTP](TFTP.md)
+- [TiVoConnect](TIVOCONNECT.md)
 - [TLS](TLS.md)
+- [UBNTAC2](UBNTAC2.md)
 
 ### 按用途
 
